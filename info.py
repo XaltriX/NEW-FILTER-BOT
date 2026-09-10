@@ -12,7 +12,7 @@ id_pattern = re.compile(r'^.\d+$')
 # Bot information
 SESSION = environ.get('SESSION', 'dreamxbotz_search')
 API_ID = int(environ.get('API_ID', '24955235'))
-API_HASH = environ.get('API_HASH', 'c69ed1342d69c83984ce7449e2eb4114')
+API_HASH = environ.get('API_HASH', 'f317b3f7bbe390346d8b46868cff0de8')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
