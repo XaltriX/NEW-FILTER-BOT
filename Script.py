@@ -3,9 +3,19 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
-    
-ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʙᴏᴛ.. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴍᴏᴠɪᴇꜱ...</b>"""
+    START_TXT = """<b><u>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</u></b>
+
+<b>ʜᴇʏ {}, {} 👋</b>
+
+<b>🤖 <a href=https://t.me/{}>{}</a></b>
+<b>🎬 ᴍᴏᴠɪᴇꜱ • 📺 ᴡᴇʙꜱᴇʀɪᴇꜱ • 🍥 ᴀɴɪᴍᴇ</b>
+
+<b>⚡ ꜰᴀꜱᴛ ꜱᴇᴀʀᴄʜ • ꜱᴍᴀʀᴛ ꜰɪʟᴛᴇʀ</b>
+
+<b>🔔 ʟᴀᴛᴇꜱᴛ ᴄᴏɴᴛᴇɴᴛ:</b>
+https://t.me/+QS5dXC57hVwwNTE1
+
+<b>✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NeonGhost_Network</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -75,7 +85,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vj_bots/3)</code>
+<code>[Button Text](buttonurl:https://t.me/NeonGhost_Network)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
