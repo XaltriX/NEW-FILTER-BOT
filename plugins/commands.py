@@ -97,7 +97,7 @@ async def start(client, message):
             message.from_user.first_name,
             temp.U_NAME,
             temp.B_NAME
-        )
+        ),
         return
     
     if AUTH_CHANNEL and not await is_subscribed(client, message):
