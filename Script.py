@@ -3,19 +3,9 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><u>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</u></b>
-
-<b>ʜᴇʏ {}, {} 👋</b>
-
-<b>🤖 <a href=https://t.me/{}>{}</a></b>
-<b>🎬 ᴍᴏᴠɪᴇꜱ • 📺 ᴡᴇʙꜱᴇʀɪᴇꜱ • 🍥 ᴀɴɪᴍᴇ</b>
-
-<b>⚡ ꜰᴀꜱᴛ ꜱᴇᴀʀᴄʜ • ꜱᴍᴀʀᴛ ꜰɪʟᴛᴇʀ</b>
-
-<b>🔔 ʟᴀᴛᴇꜱᴛ ᴄᴏɴᴛᴇɴᴛ:</b>
-https://t.me/+QS5dXC57hVwwNTE1
-
-<b>✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NeonGhost_Network</b>"""
+    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
+    
+ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʙᴏᴛ.. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴍᴏᴠɪᴇꜱ...</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
