@@ -179,7 +179,7 @@ No worries! Our movie search works only in the group. 🍿
             reply_markup=InlineKeyboardMarkup([
                 [
                     InlineKeyboardButton(
-                        "🔎 SEARCH MOVIES 🎬",url='https://t.me/maan_movies2'
+                        "🔎 SEARCH MOVIES 🎬",url='https://t.me/MOVIE_REQUESTX'
                     )
                 ]
             ])
@@ -1811,7 +1811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+KzbVzahVdqQ3MmM1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+BVrd4TNNbT05ZjM0")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1909,10 +1909,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
+                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/NeonGhost'),
                 InlineKeyboardButton('✧ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('✧ ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
@@ -1923,10 +1923,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
+                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/NeonGhost'),
                 InlineKeyboardButton('✧ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('✧ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -2737,7 +2737,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                         [
                             InlineKeyboardButton(
                                 "📞 Contact Admin",
-                                url="https://t.me/Chat_With_Proffessor_bot"
+                                url="https://t.me/NeonGhost"
                             )
                         ]
                     ]
