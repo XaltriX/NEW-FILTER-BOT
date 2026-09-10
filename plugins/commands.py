@@ -62,7 +62,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
@@ -76,10 +76,10 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/NeonGhost'),
+                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
                 InlineKeyboardButton('✧ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('✧ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -90,14 +90,11 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
         await asyncio.sleep(1)
         await m.delete()
-                await message.reply_photo(
+        await message.reply_photo(
             photo=random.choice(PICS),
-            caption=script.START_TXT.format(
-                message.from_user.mention,
-                message.from_user.first_name,
-                temp.U_NAME,
-                temp.B_NAME
-            )
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
         )
         return
     
