@@ -62,10 +62,10 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
+                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/NeonGhost'),
                 InlineKeyboardButton('✧ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('✧ ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
@@ -76,10 +76,10 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+r7R8Znt7ogNkZWFl'),
+                InlineKeyboardButton('✧ ᴀᴅᴜʟᴛ ɢʀᴏᴜᴘ', url='https://t.me/+Dowg2RL-qXA0NmM1'),
                 InlineKeyboardButton('✧ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/Chat_With_Proffessor_bot'),
+                InlineKeyboardButton('✧ ᴏᴡɴᴇʀ', url='https://t.me/NeonGhost'),
                 InlineKeyboardButton('✧ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('✧ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -1543,6 +1543,9 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
+
+
 
 
 
